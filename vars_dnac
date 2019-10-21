@@ -1,0 +1,6 @@
+export DNA_CENTER_USERNAME='admin'
+export DNA_CENTER_PASSWORD='CHANGEME'
+export DNA_CENTER_BASE_URL='https://10.10.10.10'
+
+# optional needs to be False if self signed certificate
+export DNA_CENTER_VERIFY="False"
