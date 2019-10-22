@@ -8,7 +8,7 @@ Currenty, it does not support composite templates
 First (optional) step, create a vitualenv. This makes it less likely to clash with other python libraries in future.
 Once the virtualenv is created, need to activate it.
 ```buildoutcfg
-python3 -mvenv env3
+python3 -m venv env3
 source env3/bin/activate
 ```
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 The DNAC, username and passowrd of DNAC is specified in environment varaibles.  An example is provided in dnac_vars.
 You can edit this file and use the "source" command to put the variables in your shell environment.
 ```buildoutcfg
-source dnac_vars
+source vars_dnac
 ```
 
 ## Archiving the templates.
